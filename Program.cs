@@ -22,9 +22,10 @@ namespace struct_lab_student
 
         static void runMenu(Student[] studs)
         {
+            Console.WriteLine("Студенти, що мають незадовільну оцінку або неявку: ");
             for (int i = 0; i < studs.Length; i++)
             {
-                if ((studs[i].mathematicsMark == '2' || studs[i].mathematicsMark == '-' || studs[i].physicsMark == '2' || studs[i].physicsMark == '-' || studs[i].informaticsMark == '2' || studs[i].informaticsMark == '-')&&(studs[i].scholarship!=0))
+                if ((studs[i].mathematicsMark == '2' || studs[i].mathematicsMark == '-' || studs[i].physicsMark == '2' || studs[i].physicsMark == '-' || studs[i].informaticsMark == '2' || studs[i].informaticsMark == '-'))
                 {
                     studs[i].scholarship = 0;
                     Console.WriteLine("{0} {1} {2} {3}", studs[i].surName, studs[i].mathematicsMark, studs[i].physicsMark, studs[i].informaticsMark);
