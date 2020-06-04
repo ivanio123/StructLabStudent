@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "struct_lab_student", "struct_lab_student.csproj", "{70A4CF1E-09FC-410A-A58C-FB2AAA1BC05C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A4CF1E-09FC-410A-A58C-FB2AAA1BC05C}.Debug|x86.ActiveCfg = Debug|x86
+		{70A4CF1E-09FC-410A-A58C-FB2AAA1BC05C}.Debug|x86.Build.0 = Debug|x86
+		{70A4CF1E-09FC-410A-A58C-FB2AAA1BC05C}.Release|x86.ActiveCfg = Release|x86
+		{70A4CF1E-09FC-410A-A58C-FB2AAA1BC05C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AB7563B-5F0D-4E29-A27F-4171490CABCF}
+	EndGlobalSection
+EndGlobal
